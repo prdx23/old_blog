@@ -7,7 +7,7 @@ layout: default
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    <a href="{{ nav.href | prepend: site.github.url }}">{{ nav.name }}</a>
     {% endfor %}
   </nav>
 </header>
@@ -18,7 +18,7 @@ layout: default
 {% for post in site.posts %}
   <div class="list-item">
     <h2 class="list-post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl | prepend: site.github.url }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
