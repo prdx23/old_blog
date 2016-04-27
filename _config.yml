@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Blog
+title: Arsh's Blog
 email: programmer.arsh@gmail.com
-description: blog made with jekyll !!
+description: Reveries of an Inquisitive Mind
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://arsh23.github.io" # the base hostname & protocol for your site
 twitter_username: paradox_23_
 github_username:  arsh23
 
