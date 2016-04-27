@@ -176,7 +176,7 @@ a {
       }
     }
     &.post-title-link{
-      color: black !important;
+      color: rgb(51, 51, 51) !important;
       &:hover {
 
           border-bottom: 1px dotted black !important ;
@@ -402,6 +402,7 @@ pre {
   font-family: 'Josefin Sans';
   font-weight: 300;
   padding-top: 5em;
+  padding-bottom: 1.5em;
 }
 .page-title {
   text-transform: uppercase;
@@ -569,11 +570,13 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
-
-  text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 0px !important;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  // font-family: "PT Sans";
+  // font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
