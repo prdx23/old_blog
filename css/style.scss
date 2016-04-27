@@ -408,8 +408,9 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "PT Sans";
-  font-size: 12px;
+  // font-family: "PT Sans";
+  font-size: 21px;
+  color:  $grey-color-dark;
 }
 .page-tagline {
   font-size: 18px;
