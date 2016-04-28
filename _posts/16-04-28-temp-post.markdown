@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Science of Gravity"
-date:   2016-03-30 19:45:31 +0530
-categories: science
-author: "Chandler Bing"
+title:  "New posts coming soon !!"
+date:   2016-04-28 23:29:31 +0530
+categories: ["general"]
+author: "Arsh"
 ---
-"Could I be anymore pulling ?"
+This blog is just recently setup , i will be writing new posts here as soon as I get time
+
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
