@@ -18,12 +18,25 @@
             <div class="footer-col footer-col-4 footer-content" style='float:right;'>
                 <div class="social-media-list">
                     {% if site.github_username %}
-                        {% include icon-github.html username=site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}">
+                            <span class="icon icon--github">
+                                <i class="fa fa-github" style='color:#828282;'></i>
+                            </span>
+                        </a>
                     {% endif %}
 
                     {% if site.twitter_username %}
-                        {% include icon-twitter.html username=site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                            <span class="icon icon--twitter">
+                                <i class="fa fa-twitter" style='color:#828282;'></i>
+                            </span>
+                        </a>
                     {% endif %}
+                    <a href='{{prepend: site.url | prepend: site.baseurl }}/feed.xml'>
+                        <span class="icon " style='padding-top:2px;'>
+                            <i class="fa fa-rss" style='color:#828282;'></i>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
